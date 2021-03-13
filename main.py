@@ -2,7 +2,7 @@ import requests
 import json
 
 api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/"
-                           "listings/latest?start=1&limit=10&convert=USD&CMC_PRO_API_KEY=9134ad4d-3ba1-4017-85b1-c5ec86a2a50a")
+                           "listings/latest?start=1&limit=10&convert=USD&CMC_PRO_API_KEY=*************")
 # print(api_request)
 # to achieve the code in a proper format
 result = json.loads(api_request.content)
